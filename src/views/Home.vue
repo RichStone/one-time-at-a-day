@@ -1,14 +1,20 @@
 <template>
   <div class="page-wrapper">
-    <h1 class="home-page-title">{{ appTitle }}</h1>
+    <h1 class="home-page-title">How it works</h1>
+    <ol>
+      <li>Choose Your Language</li>
+      <li>Choose Your level</li>
+      <li>Choose how many words You'd like to learn per day</li>
+      <li>Learn Your first word or replace it with another one</li>
+      <li>Check the Video</li>
+    </ol>
     <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
-
     <a
       rel="noopener"
       class="documentation-link"
       target="_blank"
-      href="https://bento-starter.netlify.com/"
-      >Documentation →</a
+      href="/products"
+      >Try now →</a
     >
   </div>
 </template>
@@ -45,6 +51,7 @@ export default {
   align-items: center;
 
   .logo {
+    width: 123px;
     margin-bottom: 3rem;
   }
 
